@@ -1,4 +1,4 @@
-6:16:42
+6:39:11
 
 Tools:
 * The harvester 
@@ -38,6 +38,13 @@ Tools:
     * nmap -sn 192.168.0.0/16
     * nmap -T4 192.168.0.1 <- search for open ports on ip
     * nmap scripts
-* Nessus home
-    *
-    
+* Nessus [home -> free home version]
+    * network scanner
+    * download .deb file
+    * to install: 
+        * dpkg -i name.deb
+        * go to `localhost:8834`
+* Metasploit 
+    * startup in console: msfconsole
+    * inside msf: `search portscan`
+    * 
